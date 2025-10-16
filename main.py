@@ -5,9 +5,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # ==== CONFIGURATION ====
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Loaded from Choreo environment
-CHANNEL_ID = int(os.getenv("CHANNEL_ID", "0"))
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+BOT_TOKEN = os.getenv("8372763325:AAHIys7dhbgrQMBvxJqCdJV-AJmpvwV_mqY")  # Loaded from Choreo environment
+CHANNEL_ID = int(os.getenv("8293366242", "0"))
+ADMIN_ID = int(os.getenv("-1002822805641", "0"))
 
 file_store = {}
 
